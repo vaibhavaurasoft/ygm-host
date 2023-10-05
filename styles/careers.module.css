@@ -1,0 +1,102 @@
+.heading {
+   
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: var(--yellow) !important;
+}
+
+.Job_card {
+    /* background-color: red; */
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.job_menu {
+    display: flex;
+    color: var(--yellow);
+    justify-content: space-between;
+}
+
+.job_menuItem {
+    margin: 5px;
+}
+
+.job_title {
+    font-size: 30px;
+    color: var(--yellow);
+   
+}
+
+
+
+
+
+
+
+.job-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--yellow);
+}
+
+.job-details i {
+    margin-right: 10px;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.job-details i:hover {
+    color: var(--yellow);
+}
+
+.job-cards {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: white;
+    padding: 20px 40px;
+    margin: 20px auto;
+}
+
+.job-disc h6 {
+    color: var(--light_black);
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.job-disc p {
+    text-align: justify;
+}
+
+.job-cards .applynow-btn {
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    background-color: white;
+    padding: 5px 15px;
+    transition: all 0.7s;
+}
+
+.job-cards .applynow-btn:hover {
+    color: white;
+    background-color: var(--yellow);
+}
+
+@media screen and (max-width: 280px) {
+    .job-cards {
+        padding: 10px 5px;
+    }
+
+    .job-details {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .job-details i {
+        margin-right: 10px;
+        margin-left: 25px;
+    }
+}

@@ -1,0 +1,140 @@
+.blogCard {
+    padding-bottom: 10px;
+    margin: 30px 0;
+    border-bottom: 4px solid transparent;
+}
+
+.blogCard:hover {
+    box-shadow: 5px 5px 10px gray;
+    border-bottom: 4px solid var(--yellow);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.3s;
+}
+
+.blogCard .blogCard-header {
+    overflow: hidden;
+    background-color: var(--light_black);
+    height: 200px;
+}
+
+.blogCard-header img {
+    transition: all 0.5s;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.blogCard-header img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.blogCard .postDetails {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.blogCard .postDetails .author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogCard .postDetails .author img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.blogCard .postDetails .name {
+    color: var(--yellow);
+    line-height: 1.2;
+    font-size: 0.7rem;
+   
+}
+
+.blogCard .authorDetails .position {
+    font-size: 0.7rem;
+    line-height: 1.5;
+    color: #313d3f;
+}
+
+.blogCard .postDetails small {
+    opacity: 0.5;
+    color: #313d3f;
+}
+
+.blogCard .blogCard-body {
+    padding: 0.5rem;
+}
+
+.blogCard .category {
+    text-align: center;
+    padding: 0.25em 0.75em;
+    border-radius: 1em;
+    font-size: 0.75rem;
+    background: linear-gradient(to right, var(--yellow), var(--logoBlack));
+    color: #fff;
+}
+
+.blogCard .blogCard-body h4 {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+.blogCard p {
+    color: var(--light_black);
+}
+
+.blogCard .divider {
+    font-size: 30px;
+    opacity: 0.1;
+    color: #313d3f;
+}
+
+.blogCard .blogCard-footer {
+    padding: 0 10px;
+}
+
+.blogCard .timing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+    .blogCard {
+        padding-bottom: 10px;
+        margin: 13px 0;
+        border-bottom: 4px solid transparent;
+    }
+
+    .Blog_disc {
+        display: none !important;
+    }
+}
+
+.small_disc {
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+.blogCard-body h4{
+    word-break: break-all;
+}
+.blogCard a{
+    text-decoration: none;
+    color: var(--yellow); 
+}
+.blogCard a:hover{
+    text-decoration: none;
+    color: var(--logoBlack); 
+}

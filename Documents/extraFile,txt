@@ -1,0 +1,5 @@
+1 server.js in root :- need to check if we can utilize or else remove it in later
+2 nodemon.json file :- need to check if we can utilize or else remove it in later
+3 db.json :- it's help us to create local json-server to test upcomming API's in UI
+4 sample.env :- it's help us to get sample .env file for local
+5 health-check endpoint :- http://localhost:3000/api/health-check

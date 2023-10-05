@@ -1,0 +1,1127 @@
+.heading_45 {
+    
+    /* margin-top: 30px; */
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: var(--yellow) !important;
+}
+
+.About_Top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.background-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.bg-1 {
+    flex: 1;
+    width: 100%;
+    background-color: var(--yellow);
+}
+
+.bg-2 {
+    flex: 1;
+    width: 100%;
+    background-color: var(--logoBlack);
+}
+
+.about-container {
+    width: 80%;
+    position: absolute;
+    background-color: white;
+    box-shadow: 2px 2px 30px #2d2d2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.hed {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-container {
+    flex: 1;
+    display: flex;
+    color: var(--light_black);
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 16px;
+    text-align: left !important;
+}
+
+.about-container .text-container h2 {
+    
+    color: var(--yellow);
+    text-align: center;
+}
+
+.about-container .text-container h3 {
+    color: var(--yellow);
+    display: block;
+    text-align: center !important;
+    
+    font-size: 30px;
+}
+
+.about-container .text-container h4 {
+    
+    padding: 10px 0px;
+    color: var(--yellow);
+}
+
+.text-container #Home_btn {
+    background: transparent !important;
+    border: 2px solid var(--yellow) !important;
+    color: var(--yellow) !important;
+    font-size: 20px;
+    width: 150px;
+    padding: 5px;
+    position: relative;
+    z-index: 200;
+    transition: 1s;
+}
+
+.text-container #Home_btn:hover {
+    background: var(--yellow) !important;
+    border-radius: 2px solid #fff !important;
+    color: #fff !important;
+}
+
+@media screen and (max-width: 1600px) {
+    .About_Top {
+        height: 600px;
+    }
+
+    .bg-1 {
+        height: 600px;
+    }
+
+    .bg-2 {
+        height: 600px;
+    }
+
+    .about-container {
+        width: 90%;
+    }
+
+    .image-container img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .text-container h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .About_Top {
+        height: 700px;
+    }
+
+    .bg-1 {
+        height: 700px;
+    }
+
+    .bg-2 {
+        height: 700px;
+    }
+
+    .about-container {
+        flex-direction: row;
+    }
+
+    .image-container img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .text-container h1 {
+        font-size: 30px;
+        margin-bottom: 0px;
+        
+        padding: 10px 0px;
+        color: var(--yellow);
+    }
+
+    .text-container #Home_btn {
+        font-size: 16px;
+        width: 130px;
+        
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-container {
+        flex-direction: row;
+        margin-top: 0px !important;
+    }
+
+    .about-container .text-container h3 {
+        font-size: 25px;
+        margin: 10px 0px;
+    }
+
+    .bg-1 {
+        height: 840px;
+    }
+
+    .bg-2 {
+        height: 840px;
+    }
+
+    .image-container img {
+        width: 260px;
+        height: 270px;
+        margin: 0px;
+    }
+
+    .text-container #Home_btn {
+        font-size: 16px;
+        width: 130px;
+        
+        padding: 5px;
+    }
+
+    .text-container p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .About_Top {
+        height: 980px;
+    }
+
+    .bg-1 {
+        height: 980px;
+    }
+
+    .bg-2 {
+        height: 980px;
+    }
+
+    /* .App {
+        text-align: center !important;
+    } */
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        flex-direction: row;
+        margin-top: 0px;
+    }
+
+    .about-container .text-container h4 {
+        margin-bottom: 0px;
+    }
+
+    .image-container img {
+        width: 260px;
+        height: 200px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .text-container {
+        align-items: center;
+        text-align: center !important;
+    }
+
+    .about-container .text-container p {
+       
+        font-size: 14px;
+    }
+
+    .text-container #Home_btn {
+        font-size: 16px;
+        width: 130px;
+        
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .About_Top {
+        height: 1100px;
+    }
+
+    .bg-1 {
+        height: 1100px;
+    }
+
+    .bg-2 {
+        height: 1100px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .About_Top {
+        height: 1250px;
+    }
+
+    .bg-1 {
+        height: 1250px;
+    }
+
+    .bg-2 {
+        height: 1250px;
+    }
+}
+
+
+
+/* Directoer Page Css Start */
+.Director .card {
+    border: none;
+    position: relative;
+}
+
+.Director .fa-brands {
+    font-size: 30px !important;
+    color: var(--yellow);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.Director a {
+    text-decoration: none !important;
+}
+
+.Director .fa-brands:hover {
+    font-size: 30px !important;
+    color: var(--logoBlack);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px 3px rgba(126, 124, 124, 0.2);
+}
+
+.A-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.Director h1 {
+    
+    color: var(--yellow) !important;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.Director .text {
+    padding: 0px 30px;
+}
+
+.Director .text h4 {
+   
+    margin: 10px 0px;
+    color: var(--yellow) !important;
+}
+
+.Director .text p {
+   
+    color: var(--light_black) !important;
+    line-height: 25px;
+}
+
+.Director ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 0px !important;
+}
+
+.Director ul li {
+   
+    margin: 0px 2px;
+    list-style: none;
+    color: var(--light_black);
+    text-decoration: none;
+}
+
+
+
+/* ===================================== */
+/* ==============425==================== */
+/* ===================================== */
+@media screen and (max-width: 768px) {
+
+    .Director h1 {
+        margin-top: 30px;
+    }
+
+    .Director .text {
+        padding: 0px 15px;
+        justify-content: center;
+    }
+
+    .Director .text p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .Director .f {
+        border-bottom: 2px solid var(--light_black);
+    }
+
+    .Director ul {
+        justify-content: left;
+        padding: 0px !important;
+    }
+}
+
+/* ===================================== */
+/* ==============425==================== */
+/* ===================================== */
+@media screen and (max-width: 425px) {
+
+    .Director .text {
+        padding: 0px 0px;
+        justify-content: center;
+    }
+
+    .Director .f {
+
+        border-bottom: 2px solid var(--light_black);
+    }
+
+    .Director .card-title {
+        margin-top: 10px;
+    }
+
+    .Director ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px !important;
+    }
+}
+
+/* ===================================== */
+/* ==============425==================== */
+/* ===================================== */
+@media screen and (max-width: 320px) {
+
+
+    .Director .text {
+        padding: 0px 0px;
+    }
+
+    .Director h1 {
+        
+        color: var(--yellow) !important;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .Director h1 {
+        margin-top: 20px;
+    }
+
+    .Director .text p {
+        font-size: 13px;
+        line-height: 18px;
+        text-align: justify;
+
+    }
+}
+
+/* ========================== */
+/* ========================== */
+.AboutDirectors {
+    padding: 0px;
+}
+
+.AboutDirectors h1 {
+    
+    margin: 20px 0px;
+    color: var(--yellow) !important;
+}
+
+.AboutDirectors .col-md-3 {
+    padding: 10px !important;
+}
+
+.AboutDirectors .card {
+    position: relative;
+    border-radius: 0px !important;
+    border: none;
+    background: var(--light_black);
+}
+
+.Counserler_card {
+    width: 300px;
+}
+
+.AboutDirectors .card:hover .card-img {
+    transition: 0.12s linear;
+    opacity: 0.4;
+    border-radius: 0px !important;
+}
+
+.AboutDirectors .card .card-img {
+    width: 100%;
+    height: 250px;
+    border-radius: 0px !important;
+    box-shadow: 0px 1px 15px 0px rgb(104, 102, 102) !important;
+}
+
+.AboutDirectors .card .card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px !important;
+}
+
+.img-fluid {
+    height: 100% !important;
+}
+
+.AboutDirectors .card-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 8px 10px 0px var(--light_black);
+   
+    font-size: 30px !important;
+    border-radius: 10px !important;
+    color: white;
+    visibility: hidden;
+    overflow: hidden;
+    padding: 15px;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.card-text::-webkit-scrollbar {
+    display: none;
+}
+
+.AboutDirectors .card-text h5 {
+   
+    font-size: 30px !important;
+}
+
+.AboutDirectors .card-text p {
+    margin: auto;
+   
+    font-size: 12px !important;
+}
+
+.AboutDirectors .card:hover .card-text {
+    transition: 2s linear;
+    visibility: visible;
+}
+
+.card_bio {
+    text-align: center;
+    padding: 10px;
+}
+
+.card_bio h5 {
+   
+    padding-top: 15px;
+    color: var(--yellow);
+}
+
+.card_bio ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px !important;
+}
+
+.card_bio ul li {
+   
+    margin: 0px 10px;
+    list-style: none;
+    color: var(--light_black);
+    text-decoration: none;
+}
+
+.card_bio ul li a {
+    color: var(--light_black);
+}
+
+.card_bio ul li a:hover {
+    color: var(--yellow);
+}
+
+/* =============================================================================================================================== */
+.Our_Process {
+    width: 100vw;
+    padding: 30px 0px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Our_Process {
+    background-color: aliceblue;
+    padding-top: 40px;
+}
+
+.Our_Process_card {
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Our_Process_card h4 {
+    display: flex;
+    padding: 40px;
+    color: var(--yellow);
+    line-height: 25px;
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #eef1c0, #d3d7f7, #e3f7e7, #d3d7f7);
+    background-size: 400% 400%;
+    animation: gradient1 15s ease infinite;
+    line-height: 25px;
+    
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+}
+
+.Our_Process_card h4:hover {
+    background: linear-gradient(-170deg, #ffee00 0%, rgba(235, 8, 8, 0) 90%);
+
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    line-height: 25px;
+    box-shadow: 0px 1px 15px 0px rgb(104, 102, 102) !important;
+}
+
+.Our_Process_Desc{
+    background: linear-gradient(-170deg, #ffee00 0%, rgba(235, 8, 8, 0) 90%);
+    /* width: 200px; */
+    /* height: 200px; */
+    font-size: 20px;
+    line-height: 25px;
+    box-shadow: 0px 1px 15px 0px rgb(104, 102, 102) !important;
+}
+
+
+
+/* / =================================== / */
+
+
+/* / ===========Benefites===============/// / */
+
+
+/* / =================================== / */
+
+#Benefites {
+    padding: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Benefites ol li {
+    margin: 10px 0px;
+    text-align: left;
+    width: 100%;
+}
+
+
+/* / =================================== / */
+
+
+/* / ===========Benefites===============/// / */
+
+
+/* / =================================== / */
+
+#Counseling_courses {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin: auto;
+}
+
+.Counseling_courses div {
+    padding: 15px;
+    border: none;
+   
+    margin: 10px;
+    box-shadow: 0px 5px 5px rgb(185, 182, 182);
+    display: inline-block;
+    transition-property: background 6s !important;
+}
+
+.Counseling_courses div:hover {
+    background: linear-gradient(-70deg, var(--yellow) 0%, rgba(235, 8, 8, 0) 90%);
+}
+
+
+/* / ===================================== / */
+
+
+/* / ==============1440=================== / */
+
+
+/* / ===================================== / */
+
+@media screen and (max-width: 1440px) {
+    .Our_Process_card h4 {
+        display: flex;
+        padding: 40px;
+        line-height: 25px;
+        text-align: center;
+        align-items: center;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        background-color: var(--yellow);
+        line-height: 35px;
+        
+    }
+}
+
+
+/* / ===================================== / */
+
+
+/* / ==============1024=================== / */
+
+
+/* / ===================================== / */
+
+@media screen and (max-width: 1024px) {}
+
+
+/* / ===================================== / */
+
+
+/* / ==============768==================== / */
+
+
+/* / ===================================== / */
+
+@media screen and (max-width: 768px) {
+    .Our_Process {
+        width: 100vw;
+        padding: 0px 0px;
+    }
+
+    .Our_Process_card h4 {
+        display: flex;
+        padding: 40px;
+        line-height: 25px;
+        text-align: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        
+        font-size: 20px;
+    }
+
+    .Our_Process_card {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    #Benefites {
+        padding: 30px;
+    }
+
+    #Benefites ol li {
+        width: 100%;
+    }
+
+    #Counseling_courses {
+        padding: 0px;
+        padding-top: 0px;
+    }
+}
+
+
+/* / ===================================== / */
+
+
+/* / ==============425==================== / */
+
+
+/* / ===================================== / */
+
+@media screen and (max-width: 425px) {
+    #Our_Process h3 {
+        text-align: center;
+        font-size: 30px;
+        
+        color: var(--yellow);
+    }
+
+    .Our_Process_card h4 {
+        padding: auto;
+        line-height: 20px;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        
+        font-size: 15px;
+    }
+
+    .Our_Process_card h4:hover {
+        background-color: white;
+        color: var(--logoBlack);
+        width: 140px;
+        height: 140px;
+        font-size: 14px;
+        line-height: 16px;
+        box-shadow: 0px 1px 15px 0px rgb(104, 102, 102) !important;
+    }
+
+    .Our_Process_card {
+        width: 170px;
+        height: 170px;
+        margin: 10px;
+    }
+
+    #Benefites {
+        padding: 0px;
+        font-size: 14px;
+    }
+
+    .Counseling_courses div {
+        padding: 7px;
+        margin: 5px;
+        font-size: 11px;
+
+    }
+
+}
+
+
+/* / ===================================== / */
+
+
+/* / ==============425==================== / */
+
+
+/* / ===================================== / */
+
+@media screen and (max-width: 375px) {
+    .Our_Process_card h4 {
+        padding: 20px;
+        line-height: 20px auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        
+        font-size: 14px;
+    }
+
+    .Our_Process_card h4:hover {
+        background-color: white;
+        color: var(--logoBlack);
+        width: 130px;
+        height: 130px;
+        font-size: 12px;
+        line-height: 15px;
+        box-shadow: 0px 1px 15px 0px rgb(104, 102, 102) !important;
+    }
+
+    .Our_Process_card {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+}
+
+
+/* / ===================================== / */
+
+
+/* / ==============425==================== / */
+
+
+/* / ===================================== / */
+
+@media screen and (max-width: 320px) {
+    .Our_Process_card h4 {
+        padding: 30px auto;
+        line-height: 15px;
+        width: 130px;
+        height: 130px;
+        font-size: 13px;
+    }
+
+    .Our_Process_card h4:hover {
+        background-color: white;
+        color: var(--logoBlack);
+        width: 100px;
+        height: 100px;
+        font-size: 10px;
+        line-height: 12px;
+        box-shadow: 0px 1px 15px 0px rgb(104, 102, 102) !important;
+    }
+
+    .Our_Process_card {
+        width: 130px;
+        height: 130px;
+        margin: 10px;
+    }
+
+    .Counseling_courses div {
+        padding: 7px;
+        margin: 5px;
+        font-size: 8px;
+        cursor: none !important;
+    }
+}
+
+/* benifites section */
+#Benefites ul {
+    padding: 0px !important;
+}
+
+.new_li {
+    padding: 10px;
+    width: 80%;
+}
+
+
+.odd {
+    border-radius: 0px 50px 50px 0px;
+    background: linear-gradient(-45deg, #eef1c0, #d3d7f7, #e3f7e7, #d3d7f7);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.even {
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 40px !important;
+    background: linear-gradient(-45deg, #eef1c0, #d3d7f7, #e3f7e7, #d3d7f7);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.odd::marker,
+.even::marker {
+    color: var(--light_black) !important;
+    font-size: 20px !important;
+    margin: 0px 5px 0px 0px !important;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+        box-shadow: 0px 2px 3px rgb(214, 212, 212);
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient1 {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+        box-shadow: 0px 4px 3px rgb(214, 212, 212);
+        color: #31302f;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* ======================================================================================================================= */
+#Sister_Concerns {
+    padding: 50px;
+    background-color: aliceblue;
+}
+
+.Sister_Concerns div {
+    margin: 30px 0px;
+    padding: 0 40px;
+}
+
+.Sister_Concerns p b {
+    font-size: 20px;
+}
+
+.Sister_Concerns p {
+    text-align: justify;
+}
+
+.Sister_Concerns a {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--yellow);
+   
+}
+.Sister_Concerns a:hover {
+    color: var(--logoBlack);   
+}
+
+.SS_LOGO {
+    margin: auto;
+    padding: 10px 0px;
+    height: 200px;
+    display: inline !important;
+}
+
+/* / ===================================== / */
+
+
+/* / ==============1440=================== / */
+
+
+/* / ===================================== / */
+
+@media screen and (max-width: 1440px) {
+    .Our_Process_card h4 {
+        display: flex;
+        padding: 30px;
+        line-height: 25px;
+        text-align: center;
+        align-items: center;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-color: var(--yellow);
+        
+    }
+}
+
+/* ============768============= */
+@media screen and (max-width:768px) {
+    .Our_Process_card h4 {
+        display: flex;
+        padding: 30px;
+        line-height: 25px;
+        text-align: center;
+        align-items: center;
+        width: 210px;
+        height: 210px;
+        border-radius: 50%;
+        background-color: var(--yellow);
+        
+    }
+    #Sister_Concerns {
+        padding: 0px;
+        background-color: aliceblue;
+    }
+
+    .Sister_Concerns div {
+        margin: 0px 0px;
+        padding: 0 10px;
+    }
+
+    .Sister_Concerns p b {
+        font-size: 20px;
+    }
+}
+
+/* ============425============= */
+@media screen and (max-width:425px) {
+    .Our_Process_card h4 {
+        width: 180px;
+        height: 180px;
+    }
+    #Sister_Concerns {
+        padding: 0px;
+        background-color: aliceblue;
+    }
+
+    .Sister_Concerns p b {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .Sister_Concerns p {
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    .Sister_Concerns a {
+        font-size: 16px;
+        text-decoration: none;
+        color: var(--yellow);
+       
+    }
+
+    .Sister_Concerns div {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .Sister_Concerns h1 {
+        padding-left: 10px;
+    }
+}
+
+/* ============320============= */
+@media screen and (max-width:375px) {
+    .Our_Process_card h4 {
+        width: 150px;
+        height: 150px;
+        line-height: 17px ;
+    }
+    #Sister_Concerns {
+        padding: 0px;
+        background-color: aliceblue;
+    }
+}
+/* ============320============= */
+@media screen and (max-width:320px) {
+    .Our_Process_card h4 {
+        width: 140px;
+        height: 140px;
+        line-height: 17px ;
+    }
+    #Sister_Concerns {
+        padding: 0px;
+        background-color: aliceblue;
+    }
+}
+
+/* ========================================================================================================================== */
+

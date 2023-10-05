@@ -1,0 +1,86 @@
+.form .input-field {
+  width: 100% !important;
+  margin: auto;
+  height: 44px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+/* @media screen and(width:400px) {
+  .input-field .phone{
+    margin-bottom: 80px !important;
+  }
+} */
+.input {
+  font-size: 16px !important;
+}
+
+.react-responsive-modal-modal {
+    width: 90%;
+  max-width: 800px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--yellow);
+}
+
+.input-error {
+  border-color: red;
+}
+
+.error {
+  text-align: left;
+  color: red;
+  margin: 0px 0px;
+  width: 100%;
+}
+
+.sub-heading {
+  color: var(--yellow);
+  text-align: center;
+
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.3rem;
+  background-color: transparent !important;
+  border-bottom: 2px solid var(--yellow);
+  color: var(--yellow);
+}
+.text-area {
+  height: 80px;
+}
+.submit-button {
+  width: 100%;
+  color: var(--yellow);
+  border: 2px solid var(--yellow);
+  margin: auto;
+  transition: 0.6s;
+}
+
+.submit-button:hover {
+  color: #fff;
+  background-color: var(--yellow);
+}
+.Form_main_heading {
+
+  color: var(--yellow);
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+  @media screen and (max-width: 1250px) 
+  {
+    
+  }

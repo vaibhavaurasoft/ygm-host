@@ -1,0 +1,25 @@
+.table {
+    /* width: 1200px; */
+    margin-top: 30px;
+    border: 2px solid var(--yellow);
+    max-height: 500px;
+    overflow-x: scroll !important;
+
+}
+
+.table tr th {
+    color: var(--yellow) !important;
+}
+
+.table_body {
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid var(--yellow);
+    background-color: #fff;
+}
+.examName {
+    color: var(--yellow);
+}
+.examName:hover {
+    color: var(--logoBlack);
+}

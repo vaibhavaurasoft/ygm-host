@@ -1,0 +1,22 @@
+.New_container {
+    width: 95%;
+    padding: 10px 0px;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.marquee_container {
+    display: flex;
+}
+
+.Li_tag {
+    display: inline;
+    padding: 25px !important;
+    border-right: 2px solid rgb(212, 182, 8);
+    list-style: none;
+    color: black;
+}
+
+.Li_tag a{
+    color: black !important;
+}

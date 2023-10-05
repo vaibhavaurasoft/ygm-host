@@ -1,0 +1,49 @@
+.fixWidth{
+	overflow-y: hidden;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.contentTable {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    table-layout: fixed;
+}
+.contentTable td{
+    vertical-align: text-top;
+}
+
+.contentTable thead tr {
+    background: var(--yellow);
+    color: #fff;
+    text-align: left;
+}
+
+.contentTable th,
+.contentTable td {
+    padding: 0.5rem 0.7rem;
+}
+
+.contentTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+    transition: all 0.1s ease-in;
+}
+
+.contentTable tbody tr.activeRow {
+    color: var(--yellow);
+}
+
+.contentTable tbody tr:hover,
+.contentTable tbody tr.activeRow:hover {
+    background: #dddddd;
+}
+
+.contentTable tbody tr:nth-of-type(even) {
+    background: #f3f3f3;
+}
+
+.contentTable tbody tr:last-of-type {
+    border-bottom: 2px solid var(--yellow);
+}

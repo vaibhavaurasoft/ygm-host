@@ -1,0 +1,93 @@
+.Footer_section {
+    background-color: rgba(245, 245, 245, 0.7);
+    /* color: hsla(0, 0%, 100%, .7); */
+    color: var(--light_black) ;
+    padding: 50px 0;
+    padding-bottom: 20px;
+    text-overflow: ellipsis;
+}
+
+.Foo_heading {
+    font-size: 20px;
+   
+    color: var(--yellow) !important;
+}
+
+.ul li {
+    list-style: none;
+    font-size: 16px !important;
+   
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.Footer_section p {
+    margin-bottom: 0 !important;
+    text-align: center;
+}
+
+.Footer_section p a {
+    text-decoration: none;
+    /* color: rgba(85, 82, 82, 0.7); */
+    color: rgba(12, 16, 145, 0.9);
+
+}
+
+.Footer_section .li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.Footer_section .li a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    padding: 5px;
+    padding-top: 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--yellow);
+    transition: all .6s ease;
+}
+
+.Footer_section .li a:hover {
+    background-color: var(--logoBlack);
+}
+
+.Footer_section i {
+    font-size: 25px;
+    width: 100%;
+}
+
+.heart:before {
+    color: red !important;
+} 
+
+.Foo_contant a {
+    text-decoration: none;
+    /* color: hsla(0, 0%, 100%, .7); */
+}
+
+.ul a {
+    text-decoration: none;
+    color: var(--light_black);
+}
+/* .auraLink{
+    color: blue !important;
+} */

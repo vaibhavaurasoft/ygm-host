@@ -1,0 +1,24 @@
+/* NextJS CSS */
+.C_navbar {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    padding: 0px;
+    box-shadow: 0px 1px 15px 0px rgb(104, 102, 102) !important;
+}
+
+.C_navbar .C_link {
+    border-radius: 5px;
+    color: orange;
+    font-size: 16px;
+    
+    padding: 9px 10px;
+    transition: all .3s ease;
+}
+.C_navbar .C_link:hover {
+    border-radius: 5px;
+    color: var(--yellow);
+    font-size: 16px;
+   
+}

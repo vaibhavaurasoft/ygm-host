@@ -1,0 +1,89 @@
+.react-responsive-modal-modal {
+  width: 90%;
+  max-width: 800px;
+}
+
+.modal {
+  --bs-modal-zindex: 1055;
+  --bs-modal-width: 872px !important;
+}
+
+.input-field {
+  width: 85%;
+  margin: auto;
+  height: 44px;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--logoBlack);
+}
+
+.input-error {
+  border-color: red;
+}
+
+.error {
+  text-align: left;
+  color: red;
+  margin: 0px 10px;
+  width: 100%;
+}
+
+.sub-heading {
+  color: var(--yellow);
+  text-align: center;
+
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.3rem;
+  border-bottom: 2px solid var(--logoBlack);
+  color: var(--logoBlack);
+}
+
+.text-area {
+  height: 80px;
+}
+
+.submit-button {
+  width: 100%;
+  color: var(--logoBlack);
+  border: 2px solid var(--logoBlack);
+  margin: auto;
+  transition: 0.6s;
+}
+
+.submit-button:hover {
+  color: #fff !important;
+  border-color: var(--yellow) !important;
+}
+
+.Form_main_heading {
+
+  color: var(--yellow);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.modal-content {
+  padding: 20px;
+  /* background-image: linear-gradient(to bottom right, orange, #fff, #fff, #fff, #fff, var(--logoBlack)) !important; */
+}
+
+.message {
+  color: var(--yellow);
+  font-size: 20px;
+  padding: 50px !important;
+  text-align: center;
+}
